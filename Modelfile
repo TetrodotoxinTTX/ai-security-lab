@@ -1,0 +1,7 @@
+FROM /Users/lisaiyang/.ollama/models/blobs/sha256-d7f132b1eff9ce35acf8e83ab96d2bc87eaedb68244e467bbc99e9f46a122a4c
+TEMPLATE """{{- if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{- if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{ end }}<|im_start|>assistant
+"""

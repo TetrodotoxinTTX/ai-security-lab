@@ -1,0 +1,17 @@
+# Local model files (multi-GB, keep out of the repo)
+models/
+*.gguf
+*.part*
+
+# Python
+__pycache__/
+*.pyc
+*.venv/
+
+# Personal application docs (contain name + email) — keep private
+cover-letter-chow.md
+HKU-Chow-apply.md
+PROGRESS.md
+
+# macOS
+.DS_Store
